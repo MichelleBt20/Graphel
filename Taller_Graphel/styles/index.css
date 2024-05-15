@@ -1,0 +1,50 @@
+.section1 {
+    background-image: url('/assets/images/cabecera.jpg');
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: auto;
+    padding: 8em 6em 12em;
+    display: grid;
+    place-items: center;
+}
+
+.section1 div {
+    width: 50%;
+    text-align: center;
+    color: white;
+}
+
+h2 {
+    font-size: 60px;
+    margin: 10px;
+}
+
+
+.a {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3em 0;
+}
+
+article {
+    width: 30%;
+    display: flex;
+    gap: 1.2em;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+article p {
+    width: 90%;
+}
+
+.img {
+    width: clamp(30%, 30%, 30%);
+}
+
+.img img {
+    width: clamp(100%, 100%, 100%);
+}
